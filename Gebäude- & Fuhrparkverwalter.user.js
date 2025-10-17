@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        * Gebäude- & Fuhrparkverwalter
 // @namespace   bos-ernie.leitstellenspiel.de
-// @version     1.32.0
+// @version     1.32.1
 // @license     BSD-3-Clause
 // @author      BOS-Ernie
 // @description Bereitet diverse Informationen zu Wachen und Fahrzeugen auf, welche dem Spieler Hinweise über noch fehlende Einstellungen, Ausbauten, Fahrzeugen etc. gibt
