@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        * Fahrzeugbesatzungsrapport
 // @namespace   bos-ernie.leitstellenspiel.de
-// @version     1.1.0
+// @version     1.1.1
 // @license     BSD-3-Clause
 // @author      BOS-Ernie
 // @description Zeigt die Anzahl zugewiesener Personen pro Fahrzeug und die Anzahl der benötigten Personen an, um alle Fahrzeuge zu besetzen

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        * Beschaffungsagent
 // @namespace   bos-ernie.leitstellenspiel.de
-// @version     1.0.2
+// @version     1.0.3
 // @license     BSD-3-Clause
 // @author      BOS-Ernie
 // @description Gibt gemäss Wachenbauplan Erweiterungen in Auftrag (coming soon) und beschafft Fahrzeuge
