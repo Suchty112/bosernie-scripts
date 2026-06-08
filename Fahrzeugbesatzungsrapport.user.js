@@ -14,7 +14,7 @@
 // ==/UserScript==
  
 (function () {
-  const buildingTypeIdsWithoutPersonnel = [1, 3, 4, 7, 8, 10, 14, 16];
+  const buildingTypeIdsWithoutPersonnel = [1, 3, 4, 7, 8, 10, 14, 16, 27];
  
   function countVehicleCrew() {
     let vehicleCrewCount = 0;

@@ -13,7 +13,7 @@
 // ==/UserScript==
  
 (async function () {
-  const unsupportedBuildingTypeIds = [1, 3, 4, 7, 8, 10];
+  const unsupportedBuildingTypeIds = [1, 3, 4, 7, 8, 10, 27];
   const pseudoBuildingTypeIdMapping = {
     0: 18,
     2: 20,

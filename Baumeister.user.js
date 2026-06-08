@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        * Baumeister
 // @namespace   bos-ernie.leitstellenspiel.de
-// @version     1.5.0
+// @version     1.5.1
 // @license     BSD-3-Clause
 // @author      BOS-Ernie
 // @description Fügt einen Präfix zum Namen neuer Gebäude hinzu, wählt die nächste Integrierte Leitstelle aus und selektiert das Startfahrzeug für Feuerwachen aus. Zudem erstellt es über separate Buttons verschiedene Wachenkombinationen am aktuellen Standort.
@@ -179,6 +179,36 @@
       buildingTypeId: 21,
       caption: "Rettungshundestaffel",
       image: "/images/building_rescue_dog_unit.png",
+    },
+    {
+      buildingTypeId: 24,
+      caption: "Reiterstaffel",
+      image: "/images/building_police_horse.png",
+    },
+    {
+      buildingTypeId: 25,
+      caption: "Bergrettungswache",
+      image: "/images/building_mountain_rescue.png",
+    },
+    {
+      buildingTypeId: 26,
+      caption: "Seenotrettungswache",
+      image: "/images/building_coastal_rescue.png",
+    },
+    {
+      buildingTypeId: 27,
+      caption: "Schule für Seefahrt und Seenotrettung",
+      image: "/images/building_coastal_rescue_school.png",
+    },
+    {
+      buildingTypeId: 28,
+      caption: "Hubschrauberstation (Seenotrettung)",
+      image: "/images/building_water_rescue_heliport.png",
+    },
+    {
+      buildingTypeId: 29,
+      caption: "Autobahnpolizei",
+      image: "/images/building_highway_police.png",
     },
   ];
  

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        * Personalzuweiser
 // @namespace   bos-ernie.leitstellenspiel.de
-// @version     1.14.0
+// @version     1.14.1
 // @license     BSD-3-Clause
 // @author      BOS-Ernie
 // @description Weist maximal mögliche Anzahl an Personal einem Fahrzeug zu.
@@ -434,6 +434,14 @@
         return "[]"; // 1 Windenoperator (police_helicopter_lift) und 1 Notarzt (notarzt) werden benötigt
       case 158: //GW-Höhenrettung (Bergrettung)
         return "mountain_height_rescue";
+      case 159: //Seenotrettungskreuzer
+        return "coastal_rescue";
+      case 160: //Seenotrettungsboot
+        return "[]";
+      case 161: //Hubschrauber (Seenotrettung)
+        return "[]"; // 1x Hubschrauberpilot (Seenotrettung)(coastal_helicopter), 1x Windenoperator (coastal_helicopter_lift), 1x Wasserrettungsausbildung für Notfallsanitäter (emergency_paramedic_water_rescue)
+      case 162: //RW-Schiene
+        return "railway_fire";
     }
   }
  

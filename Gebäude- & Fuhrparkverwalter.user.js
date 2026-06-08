@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        * Gebäude- & Fuhrparkverwalter
 // @namespace   bos-ernie.leitstellenspiel.de
-// @version     1.32.1
+// @version     1.32.2
 // @license     BSD-3-Clause
 // @author      BOS-Ernie
 // @description Bereitet diverse Informationen zu Wachen und Fahrzeugen auf, welche dem Spieler Hinweise über noch fehlende Einstellungen, Ausbauten, Fahrzeugen etc. gibt
@@ -89,6 +89,7 @@
       "building-type-25": 100, // Bergrettungswache
       "building-type-26": 30, // Seenotrettungswache
       "building-type-28": 12, // Hubschrauberstation (Seenotrettung)
+      "building-type-29": 30, // Autobahnpolizei
     },
   };
  
@@ -267,6 +268,12 @@
       buildingTypeId: 28,
       smallBuilding: false,
     },
+    {
+      id: "29",
+      caption: "Autobahnpolizei",
+      buildingTypeId: 29,
+      smallBuilding: false,
+    },
   ];
  
   const requiredExtensionsPerBuildingType = [
@@ -387,7 +394,7 @@
       extensions: [],
     },
   ];
-  const buildingsWithPersonal = [0, 2, 5, 6, 9, 11, 12, 13, 15, 17, 18, 19, 20, 21, 24, 25, 26, 28];
+  const buildingsWithPersonal = [0, 2, 5, 6, 9, 11, 12, 13, 15, 17, 18, 19, 20, 21, 24, 25, 26, 28, 29];
  
   function addModal() {
     const modal = document.createElement("div");
@@ -687,6 +694,14 @@
               <div class="form-group">
                 <label for="building-type-28" class="col-sm-4 control-label">
                   Hubschrauberstation (Seenotrettung)
+                </label>
+                <div class="col-sm-1">
+                  <input type="number" class="form-control" id="building-type-28" min="0" max="400" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="building-type-29" class="col-sm-4 control-label">
+                  Autobahnpolizei
                 </label>
                 <div class="col-sm-1">
                   <input type="number" class="form-control" id="building-type-28" min="0" max="400" />
